@@ -12,7 +12,6 @@ window.addEventListener('load', async() => {
 
     for (let dog of dogs) {
         const dogEl = renderDogCard(dog);
-        console.log(dog.breed);
         dogListContainer.append(dogEl);
     }
 });       
